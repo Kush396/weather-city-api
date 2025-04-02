@@ -82,7 +82,7 @@ GET /api/weather?city={cityName}
 
 **Example Request:**
 ```
-GET /api/weather?city=London
+GET /api/weather?city=Bharatpur
 ```
 
 **Example Response:**
