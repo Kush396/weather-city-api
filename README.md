@@ -42,7 +42,7 @@ weather-city-api/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/weather-city-api.git
+   git clone https://github.com/Kush396/weather-city-api.git
    cd weather-city-api
    ```
 
