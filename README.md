@@ -87,32 +87,46 @@ GET /api/weather?city=London
 
 **Example Response:**
 ```json
-{
-  "coord": {
-    "lon": -0.1257,
-    "lat": 51.5085
-  },
-  "weather": [
-    {
-      "id": 804,
-      "main": "Clouds",
-      "description": "overcast clouds",
-      "icon": "04d"
-    }
-  ],
-  "main": {
-    "temp": 15.23,
-    "feels_like": 14.86,
-    "temp_min": 13.34,
-    "temp_max": 16.67,
-    "pressure": 1013,
-    "humidity": 77
-  },
-  "wind": {
-    "speed": 4.63,
-    "deg": 250
-  },
-  "name": "London"
+{"base":"stations",
+"clouds":{
+   "all":0
+},
+"cod":200,
+"coord":{
+   "lat":27.2167,
+   "lon":77.4833
+},
+"dt":1743553982,
+"id":1276128,
+"main":{
+   "feels_like":19.64,
+   "grnd_level":990,
+   "humidity":11,
+   "pressure":1011,
+   "sea_level":1011,
+   "temp":21.18,
+   "temp_max":21.18,
+   "temp_min":21.18
+},
+"name":"Bharatpur",
+"sys":{
+   "country":"IN",
+   "sunrise":1743554377,
+   "sunset":1743599244},
+"timezone":19800,
+"visibility":10000,
+"weather":[
+   {
+      "description":"clear sky",
+      "icon":"01n",
+      "id":800,
+      "main":"Clear"
+   }
+],
+"wind":{
+   "deg":358,
+   "gust":1.89,
+   "speed":1.81}
 }
 ```
 
